@@ -1,0 +1,29 @@
+<% include header %>
+
+<style>
+    form{
+        position: relative;
+        top:25%;
+        left:25%;
+        right:25%;
+        width: 50%;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+</style>
+
+<form action="/login" method="post" style="width: 60%,margin:auto;">
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Enter your email id">
+        <input type="password" class="form-control" name="password" placeholder="Enter your password">
+        <input type="submit" value="LOGIN" class="btn btn-primary">
+    </div>
+</form>
+
+<script src="static/js/jquery-2.1.4.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<!-- <script src="static/js/quiz.js"></script> -->
+<script src="static/js/script.js"></script>
+</body>
+</html>
